@@ -1,4 +1,5 @@
 use food_delivery_assessment_db
+db.createCollection("restaurants")
 db.restaurants.insertMany([
 {
 restaurant_id: 1,
