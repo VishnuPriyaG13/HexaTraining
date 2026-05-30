@@ -1,4 +1,119 @@
 use food_delivery_assessment_db
+db.restaurants.insertMany([
+{
+restaurant_id: 1,
+name: "Spice Hub",
+city: "Hyderabad",
+cuisine: "Indian",
+rating: 4.5,
+avg_order_value: 450,
+delivery_available: true,
+tags: ["biryani", "north indian", "family"],
+contact: {
+phone: "9876543210",
+email: "spicehub@mail.com"
+}
+},
+{
+restaurant_id: 2,
+name: "Pizza Corner",
+city: "Bangalore",
+cuisine: "Italian",
+rating: 4.2,
+avg_order_value: 600,
+delivery_available: true,
+tags: ["pizza", "fast food", "cheese"],
+contact: {
+phone: "9876543211",
+email: "pizza@mail.com"
+}
+},
+{
+restaurant_id: 3,
+name: "Green Bowl",
+city: "Chennai",
+cuisine: "Healthy",
+rating: 4.7,
+avg_order_value: 350,
+delivery_available: false,
+tags: ["salad", "vegan", "healthy"],
+contact: {
+phone: null,
+email: "greenbowl@mail.com"
+}
+},
+{
+restaurant_id: 4,
+name: "Burger Street",
+city: "Hyderabad",
+cuisine: "Fast Food",
+rating: 3.9,
+avg_order_value: 300,
+delivery_available: true,
+tags: ["burger", "fries", "fast food"],
+contact: {
+phone: "9876543213",
+email: null
+}
+},
+{
+restaurant_id: 5,
+name: "Royal Tandoor",
+city: "Delhi",
+cuisine: "Indian",
+rating: 4.8,
+avg_order_value: 800,
+delivery_available: true,
+tags: ["tandoor", "north indian", "premium"],
+contact: {
+phone: "9876543214",
+email: "royal@mail.com"
+}
+},
+{
+restaurant_id: 6,
+name: "Tea Tales",
+city: "Pune",
+cuisine: "Cafe",
+rating: 4.1,
+avg_order_value: 200,
+delivery_available: false,
+tags: ["tea", "snacks", "cafe"],
+contact: {
+phone: "9876543215",
+email: "tea@mail.com"
+}
+},
+{
+restaurant_id: 7,
+name: "Ocean Grill",
+city: "Mumbai",
+cuisine: "Seafood",
+rating: 4.6,
+avg_order_value: 900,
+delivery_available: true,
+tags: ["fish", "grill", "premium"],
+contact: {
+phone: "9876543216",
+email: "ocean@mail.com"
+}
+},
+{
+restaurant_id: 8,
+name: "Dosa Point",
+city: "Chennai",
+cuisine: "South Indian",
+rating: 4.3,
+avg_order_value: 250,
+delivery_available: true,
+tags: ["dosa", "idli", "breakfast"],
+contact: {
+phone: null,
+email: null
+}
+}
+])
+
 db.restaurants.find()
 
 db.restaurants.find({},{name:1, city:1, cuisine:1, _id: 0})
