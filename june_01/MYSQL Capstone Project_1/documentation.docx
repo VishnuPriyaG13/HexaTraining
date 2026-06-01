@@ -2,7 +2,8 @@ MySQL Capstone Project 1
 Retail Analytics Database
 
 1) Database Design
-This project is a Retail Management System built using MySQL. It manages the complete flow of a retail business — customers, products, orders, payments, and deliveries — using 6 tables:
+This project is a Retail Management System built using MySQL.
+It manages the complete flow of a retail business — customers, products, orders, payments, and deliveries — using 6 tables:
 •	customers — stores customer name, city, state, gender, and membership type
 •	products — stores product name, category, and price
 •	orders — stores order date and status for each customer
@@ -27,6 +28,5 @@ This project is a Retail Management System built using MySQL. It manages the com
 •	Cancelled orders were flagged and matched with returned deliveries
 
 4) Summary
-This Retail Management System covers the complete retail workflow using 6 well connected tables. The project includes over 50 SQL queries covering filtering, aggregation, joins, subqueries, and data quality checks — making it a complete and practical database project.
-
-
+This Retail Management System covers the complete retail workflow using 6 well connected tables.
+The project includes over 50 SQL queries covering filtering, aggregation, joins, subqueries, and data quality checks — making it a complete and practical database project.
