@@ -1,0 +1,38 @@
+MYSQL Capstone Project 2
+Hospital Management System 
+  
+1) Database Design
+This project is a Hospital Management System built using MySQL. 
+It manages the complete flow of hospital operations — patients, doctors, appointments, treatments, billing, and payments — using 7 tables:
+•	patients — stores patient name, city, gender, age, and phone number
+•	doctors — stores doctor name, specialization, department, and consultation fee
+•	departments — stores department names like Cardiology, Neurology, and Orthopedics
+•	appointments — stores appointment date and status for each patient and doctor
+•	treatments — stores individual treatment name and cost for each appointment
+•	bills — stores bill date, total amount, and bill status for each appointment
+•	payments — stores payment mode, paid amount, and payment status for each bill
+
+2) Table Relationships
+•	departments → doctors — One department can have many doctors (One-to-Many)
+•	patients → appointments — One patient can have many appointments (One-to-Many)
+•	doctors → appointments — One doctor can handle many appointments (One-to-Many)
+•	appointments → treatments — One appointment has one treatment (One-to-One)
+•	appointments → bills — One appointment generates one bill (One-to-One)
+•	patients → bills — One patient can have many bills (One-to-Many)
+•	bills → payments — One bill has one payment (One-to-One)
+
+3) Key Insights from Reports
+•	Chennai has the most patients (4 out of 12)
+•	Bypass Surgery is the highest cost treatment at ₹20,000
+•	UPI and Cash are the most preferred payment methods
+•	11 out of 20 appointments were successfully completed
+•	2 cancelled appointments still have associated bills needing correction
+•	Patients like Aarav Sharma visited multiple times showing recurring healthcare needs
+•	Doctor Ramesh Kumar handled the highest number of appointments
+
+4) Summary
+This Hospital Management System covers the complete hospital workflow using 7 well connected tables. 
+The project includes 52 SQL queries covering filtering, aggregation, joins, subqueries, group by, and data quality checks — making it a complete and practical database project.
+
+•	Bills 12 and 13 have no payments and need immediate follow-up for revenue recovery
+•	Data quality checks revealed invalid foreign keys in appointments 19 and 20
