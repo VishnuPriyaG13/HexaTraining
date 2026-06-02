@@ -39,7 +39,6 @@ name: "Arjun Verma",
 city: "Delhi",
 membership: "Silver",
 phone: "9876543214"
-
 }
 ])
 
@@ -78,7 +77,6 @@ name: "Royal Tandoor",
 city: "Delhi",
 cuisine: "Indian",
 rating: 4.8
-
 }
 ])
 
@@ -112,7 +110,6 @@ rating: 4.0
 db.orders.insertMany([
 {
 order_id: 1001,
-
 customer_id: 1,
 restaurant_id: 101,
 partner_id: 201,
@@ -157,7 +154,6 @@ items: [
 { item_name: "Fries", quantity: 1, price: 120 }
 ],
 order_amount: 480,
-
 payment: {
 mode: "Cash",
 status: "Pending"
@@ -202,7 +198,6 @@ delivery_time_minutes: 50,
 order_rating: 5
 },
 {
-
 order_id: 1006,
 customer_id: 1,
 restaurant_id: 101,
