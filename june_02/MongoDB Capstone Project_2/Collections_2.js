@@ -40,7 +40,6 @@ phone: "9876543213"
 {
 learner_id: 5,
 name: "Farhan Ali",
-
 city: "Delhi",
 experience_years: 3,
 goal: "Cloud Engineer",
@@ -117,7 +116,6 @@ tools: ["Python", "Scikit-learn", "Pandas"]
 {
 course_id: 205,
 course_name: "Cloud AI Engineer",
-
 category: "Cloud",
 instructor_id: 101,
 price: 18000,
@@ -157,7 +155,6 @@ status: "Success"
 },
 progress: {
 completed_modules: 10,
-
 total_modules: 10,
 completion_percent: 100
 },
@@ -202,7 +199,6 @@ status: "Active"
 },
 {
 enrollment_id: 1005,
-
 learner_id: 5,
 course_id: 205,
 enrollment_date: ISODate("2026-03-05"),
