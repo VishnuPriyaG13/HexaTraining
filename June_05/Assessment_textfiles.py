@@ -1,6 +1,4 @@
 #Read and Display entire file
-from Assessment import highest
-
 with open(
     "Employees_ass.txt",
     "r"
