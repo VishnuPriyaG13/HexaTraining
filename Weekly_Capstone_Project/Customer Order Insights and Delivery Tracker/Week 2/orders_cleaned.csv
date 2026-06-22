@@ -1,0 +1,25 @@
+order_id,customer_id,customer_name,region,order_date,delivery_date,amount,issue,is_delivered,delay_days,delayed
+1,1,Asha Patel,West,2026-06-01,2026-06-08,1500.0,Courier delay,True,2,1
+2,2,Ravi Kumar,North,2026-06-03,2026-06-07,800.0,No issue reported,True,0,0
+3,3,Meena Iyer,South,2026-06-10,,2200.0,Pending delivery,False,2,1
+4,1,Asha Patel,West,2026-06-12,2026-06-19,950.0,Warehouse backlog,True,2,1
+5,4,John Carter,East,2026-06-14,2026-06-25,3000.0,Address correction needed,True,6,1
+6,5,Priya Nair,South,2026-06-08,2026-06-10,1200.0,No issue reported,True,0,0
+7,6,Vikram Singh,North,2026-06-09,2026-06-15,600.0,Support unresponsive,True,1,1
+8,7,Sara Thomas,West,2026-06-11,2026-06-15,1750.0,No issue reported,True,0,0
+9,8,Arjun Mehta,East,2026-06-12,2026-06-17,450.0,Box damaged in transit,True,0,0
+10,9,Lena Fernandes,South,2026-06-13,2026-06-16,2750.0,No issue reported,True,0,0
+11,2,Ravi Kumar,North,2026-06-14,2026-06-18,990.0,Minor routing delay,True,0,0
+12,10,Karan Shah,West,2026-06-15,2026-06-21,1100.0,Tracking system issue,True,1,1
+13,5,Priya Nair,South,2026-06-17,2026-06-19,1340.0,No issue reported,True,0,0
+14,6,Vikram Singh,North,2026-06-18,2026-06-21,720.0,Wrong item sent,True,0,0
+15,11,Divya Reddy,South,2026-06-19,2026-06-24,1980.0,Slight delay,True,0,0
+16,12,Mohit Verma,North,2026-06-20,2026-06-23,2400.0,No issue reported,True,0,0
+17,3,Meena Iyer,South,2026-06-18,2026-06-25,1600.0,Repeat delay for this customer,True,2,1
+18,13,Ayesha Khan,East,2026-06-22,2026-06-25,880.0,No issue reported,True,0,0
+19,14,Rohan Joshi,West,2026-06-23,,1450.0,Quality mismatch reported,False,0,0
+20,4,John Carter,East,2026-06-24,2026-06-30,2050.0,Recurring delay pattern,True,1,1
+21,9,Lena Fernandes,South,2026-06-25,2026-06-27,675.0,No issue reported,True,0,0
+22,7,Sara Thomas,West,2026-06-26,2026-06-28,1320.0,Minor packaging issue,True,0,0
+23,1,Asha Patel,West,2026-06-27,2026-07-04,890.0,Courier delay again,True,2,1
+25,10,Karan Shah,West,2026-06-29,2026-07-02,2600.0,No issue reported,True,0,0

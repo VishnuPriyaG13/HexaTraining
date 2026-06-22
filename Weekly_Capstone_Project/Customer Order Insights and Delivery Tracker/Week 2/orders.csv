@@ -1,0 +1,26 @@
+order_id,customer_id,customer_name,region,order_date,delivery_date,amount,issue
+1,1,Asha Patel,West,2026-06-01,2026-06-08,1500.00,Courier delay
+2,2,Ravi Kumar,North,2026-06-03,2026-06-07,800.00,
+3,3,Meena Iyer,South,2026-06-10,,2200.00,Pending delivery
+4,1,Asha Patel,West,2026-06-12,2026-06-19,950.00,Warehouse backlog
+5,4,John Carter,East,2026-06-14,2026-06-25,3000.00,Address correction needed
+6,5,Priya Nair,South,2026-06-08,2026-06-10,1200.00,
+7,6,Vikram Singh,North,2026-06-09,2026-06-15,600.00,Support unresponsive
+8,7,Sara Thomas,West,2026-06-11,2026-06-15,1750.00,
+9,8,Arjun Mehta,East,2026-06-12,2026-06-17,450.00,Box damaged in transit
+10,9,Lena Fernandes,South,2026-06-13,2026-06-16,2750.00,
+11,2,Ravi Kumar,North,2026-06-14,2026-06-18,990.00,Minor routing delay
+12,10,Karan Shah,West,2026-06-15,2026-06-21,1100.00,Tracking system issue
+13,5,Priya Nair,South,2026-06-17,2026-06-19,1340.00,
+14,6,Vikram Singh,North,2026-06-18,2026-06-21,720.00,Wrong item sent
+15,11,Divya Reddy,South,2026-06-19,2026-06-24,1980.00,Slight delay
+16,12,Mohit Verma,North,2026-06-20,2026-06-23,2400.00,
+17,3,Meena Iyer,South,2026-06-18,2026-06-25,1600.00,Repeat delay for this customer
+18,13,Ayesha Khan,East,2026-06-22,2026-06-25,880.00,
+19,14,Rohan Joshi,West,2026-06-23,,1450.00,Quality mismatch reported
+20,4,John Carter,East,2026-06-24,2026-06-30,2050.00,Recurring delay pattern
+21,9,Lena Fernandes,South,2026-06-25,2026-06-27,675.00,
+22,7,Sara Thomas,West,2026-06-26,2026-06-28,1320.00,Minor packaging issue
+23,1,Asha Patel,West,2026-06-27,2026-07-04,890.00,Courier delay again
+24,8,Arjun Mehta,East,,2026-06-30,1100.00,Missing order date
+25,10,Karan Shah,West,2026-06-29,2026-07-02,2600.00,
